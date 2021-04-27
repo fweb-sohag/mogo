@@ -49,10 +49,10 @@ $(function(){
 // });
 
     //Add Active Class//
-    $('.navbar li a').click(function () {
+    $('.navbar .navbar-nav .nav-link').click(function () {
       // $('.navbar a').removeClass('active');
       // $(this).addClass('active');//
-      $(this).addClass('active').parent().siblings().find('a').removeClass('active');
+      $(this).addClass('active').parent().siblings().find('.nav-link').removeClass('active');
     });
 
 //  banner slider 
