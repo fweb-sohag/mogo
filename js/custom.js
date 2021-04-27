@@ -42,11 +42,18 @@ $(function(){
 
 
     // active class in navbar 
- $(function(){
-  $('.navbar .nav-item ').on('click',function(){
-      $(this).addClass('active').siblings().removeClass('active');
-      });
-});
+//  $(function(){
+//   $('.navbar .nav-item ').on('click',function(){
+//       $(this).addClass('active').siblings().removeClass('active');
+//       });
+// });
+
+    //Add Active Class//
+    $('.navbar li a').click(function () {
+      // $('.navbar a').removeClass('active');
+      // $(this).addClass('active');//
+      $(this).addClass('active').parent().siblings().find('a').removeClass('active');
+    });
 
 //  banner slider 
 $(function(){
@@ -177,9 +184,12 @@ $(function(){
   });
 
   
-    /* PRELODER PAGES PROPERTY */
 
-    $(".preloader-overlay .center").fadeOut(2000, function () {
-      $(".preloader-overlay").fadeOut(1000);
-      $("body").css("overflow", "auto");
+// preloder 
+  $(document).ready(function() {
+	
+    setTimeout(function(){
+      $('body').addClass('loaded');
+    }, 1000);
+    
   });
