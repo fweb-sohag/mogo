@@ -1,4 +1,5 @@
 $(function(){
+  "use strict";
   var backToTop = $('.backToTop');
   var html_body = $('html,body');
   
@@ -36,6 +37,7 @@ $(function(){
               }
           }
       });  
+
   });
 
 
@@ -174,13 +176,10 @@ $(function(){
 
   });
 
-//   var $;
-// $(document).ready(function () {
-//     "use strict";
   
     /* PRELODER PAGES PROPERTY */
 
-    $(".preloader-overlay .center").fadeOut(1000, function () {
-      $(".preloader-overlay").fadeOut(500);
+    $(".preloader-overlay .center").fadeOut(2000, function () {
+      $(".preloader-overlay").fadeOut(1000);
       $("body").css("overflow", "auto");
   });
