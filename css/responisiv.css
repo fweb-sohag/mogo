@@ -1,0 +1,531 @@
+/* extra device start  */
+@media(max-width:575.98px) {
+  #navbar .navbar-toggler {
+    color: #fff;
+  }
+
+  /* #navbar .navbar-nav {
+    background: #f38181;
+  } */
+  .navbar .navbar-nav .nav-item {
+    padding-left: 0;
+    background: #f38181;
+    text-align: center;
+  }
+
+  .navbar .navbar-brand {
+    height: 70px;
+    line-height: 70px;
+  }
+
+  #banner .banner-slider .banner-item h2 {
+    font-size: 30px;
+
+  }
+
+  #banner .banner-slider .banner-item h1 {
+    font-size: 14px;
+    padding-bottom: 50px;
+    line-height: 0;
+  }
+
+  #banner .banner-slider .banner-item a {
+    font-size: 10px;
+  }
+
+  #banner .banner-slider .banner-item {
+    padding-top: 135px;
+  }
+
+  #banner .banner-slider .banner-item h1::after {
+    bottom: 22px;
+  }
+
+  .head h2 {
+    padding-top: 20px;
+  }
+
+  .head h1 {
+    padding-bottom: 15px;
+    font-size: 25px;
+  }
+
+  .head h1::after {
+    bottom: 3px;
+  }
+
+  #about .about-text P {
+    margin-bottom: 33px;
+    padding: 0;
+  }
+
+  #about {
+    padding-bottom: 30px;
+  }
+
+  #counter .cont h2 {
+    padding-top: 0;
+  }
+
+  #counter .cont p {
+    padding-bottom: 0;
+
+  }
+
+  #amazing .amazing-content {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  #design .big-mobile {
+    margin-bottom: 50px;
+  }
+
+  #service .service-img {
+    padding-bottom: 14px;
+  }
+
+  #service .service-slider .service-item .slider-content .slider-text p {
+    font-size: 15px;
+  }
+
+  #service .service-slider .service-item .slider-content .slider-text {
+    padding-left: 20px;
+  }
+
+  #service .service-slider .service-item .slider-content .slider-img img {
+
+    padding: 13px;
+    width: 415px;
+  }
+
+  #team .team-text p {
+    padding: 0;
+  }
+
+  #team .team {
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+
+  #brand-logo .brand-img {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  #work .work-text {
+    padding: 0;
+
+  }
+
+  #people .people-content {
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+
+  #blog .blog-item {
+    margin-bottom: 10px;
+  }
+
+  #blog .blog-item .blog-img .blog-box {
+    top: 54%;
+  }
+
+  #map {
+
+    margin-top: -90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
+
+  #contract .end-logo h2 {
+    padding-bottom: 0;
+  }
+
+  #contract .end-logo p {
+    padding-bottom: 0;
+  }
+
+  #contract .end-logo h4 {
+    padding-bottom: 5px;
+  }
+
+  #contract .footer-blog .heading h2 {
+    padding-bottom: 15px;
+  }
+
+  #contract .instagram .heading h2 {
+    padding-bottom: 0
+  }
+
+  #contract .input-group {
+    margin-top: 5px !important;
+  }
+}
+
+/* extra device end  */
+/* small device start  */
+@media(min-width:576px) and (max-width:767.98px) {
+  #navbar .navbar-toggler {
+    color: #fff;
+  }
+
+  /* #navbar .navbar-nav {
+    background: #f38181;
+  } */
+  .navbar .navbar-nav .nav-item {
+    padding-left: 0;
+    background: #f38181;
+    text-align: center;
+  }
+
+  .navbar .navbar-brand {
+    height: 70px;
+    line-height: 70px;
+  }
+
+  #banner .banner-slider .banner-item h2 {
+    font-size: 30px;
+
+  }
+
+  #banner .banner-slider .banner-item h1 {
+    font-size: 20px;
+    padding-bottom: 50px;
+    line-height: 0;
+  }
+
+  #banner .banner-slider .banner-item a {
+    font-size: 12px;
+  }
+
+  #banner .banner-slider .banner-item {
+    padding-top: 135px;
+  }
+
+  #banner .banner-slider .banner-item h1::after {
+    bottom: 22px;
+  }
+
+  .head h2 {
+    padding-top: 20px;
+  }
+
+  .head h1 {
+    padding-bottom: 15px;
+    font-size: 25px;
+  }
+
+  .head h1::after {
+    bottom: 3px;
+  }
+
+  #about .about-text P {
+    margin-bottom: 33px;
+    padding: 0;
+  }
+
+  #about {
+    padding-bottom: 30px;
+  }
+
+  #counter .cont h2 {
+    padding-top: 0;
+  }
+
+  #counter .cont p {
+    padding-bottom: 0;
+
+  }
+
+  #amazing .amazing-content {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  #design .big-mobile {
+    margin-bottom: 50px;
+  }
+
+  #service .service-img {
+    padding-bottom: 14px;
+  }
+
+  #service .service-slider .service-item .slider-content .slider-text p {
+    font-size: 15px;
+  }
+
+  #service .service-slider .service-item .slider-content .slider-text {
+    padding-left: 20px;
+  }
+
+  #service .service-slider .service-item .slider-content .slider-img img {
+
+    padding: 13px;
+    width: 415px;
+  }
+
+  #team .team-text p {
+    padding: 0;
+  }
+
+  #team .team {
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+
+  #brand-logo .brand-img {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  #work .work-text {
+    padding: 0;
+
+  }
+
+  #people .people-content {
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+
+  #blog .blog-item {
+    margin-bottom: 10px;
+  }
+
+  #blog .blog-item .blog-img .blog-box {
+    top: 54%;
+  }
+
+  #map {
+
+    margin-top: -90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
+
+  #contract .end-logo h2 {
+    padding-bottom: 0;
+  }
+
+  #contract .end-logo p {
+    padding-bottom: 0;
+  }
+
+  #contract .end-logo h4 {
+    padding-bottom: 5px;
+  }
+
+  #contract .footer-blog .heading h2 {
+    padding-bottom: 15px;
+  }
+
+  #contract .instagram .heading h2 {
+    padding-bottom: 0
+  }
+
+  #contract .input-group {
+    margin-top: 5px !important;
+  }
+}
+
+
+/* small device end  */
+
+/* m device start  */
+@media(min-width:768px) and (max-width:991.98px) {
+  #navbar .navbar-toggler {
+    color: #fff;
+  }
+
+  /* #navbar .navbar-nav {
+    background: #f38181;
+  } */
+  .navbar .navbar-nav .nav-item {
+    padding-left: 0;
+    background: #f38181;
+    text-align: center;
+  }
+
+  .navbar .navbar-brand {
+    height: 70px;
+    line-height: 70px;
+  }
+
+  #banner .banner-slider .banner-item h2 {
+    font-size: 30px;
+
+  }
+
+  #banner .banner-slider .banner-item h1 {
+    font-size: 20px;
+    padding-bottom: 50px;
+    line-height: 0;
+  }
+
+  #banner .banner-slider .banner-item a {
+    font-size: 12px;
+  }
+
+  #banner .banner-slider .banner-item {
+    padding-top: 135px;
+  }
+
+  #banner .banner-slider .banner-item h1::after {
+    bottom: 22px;
+  }
+
+  .head h2 {
+    padding-top: 20px;
+  }
+
+  .head h1 {
+    padding-bottom: 15px;
+    font-size: 25px;
+  }
+
+  .head h1::after {
+    bottom: 3px;
+  }
+
+  #about .about-text P {
+    margin-bottom: 33px;
+    padding: 0;
+  }
+
+  #about {
+    padding-bottom: 30px;
+  }
+
+  #counter .cont h2 {
+    padding-top: 0;
+  }
+
+  #counter .cont p {
+    padding-bottom: 0;
+
+  }
+
+  #amazing .amazing-content {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  #design .big-mobile {
+    margin-bottom: 50px;
+  }
+
+  #service .service-img {
+    padding-bottom: 14px;
+  }
+
+  #service .service-slider .service-item .slider-content .slider-text p {
+    font-size: 15px;
+  }
+
+  #service .service-slider .slick-dots {
+    display: none !important;
+  }
+
+  #service .service-slider .service-item .slider-content .slider-text {
+    padding-left: 20px;
+  }
+
+  #service .service-slider .service-item .slider-content .slider-img img {
+
+    padding: 18px;
+    width: 255px;
+  }
+
+  #team .team-text p {
+    padding: 0;
+  }
+
+  #team .team {
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+
+  #brand-logo .brand-img {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  #work .work-text {
+    padding: 0;
+  }
+
+  #work .earle-slider .slick-dots {
+    display: none !important;
+  }
+
+  #people .people-content {
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+
+  #blog .blog-item {
+    margin-bottom: 10px;
+  }
+
+  #blog .blog-item .blog-img .blog-box {
+    top: 48%;
+    padding: 10px;
+  }
+
+  #blog .blog-item .blog-img .blog-box h4 {
+    font-size: 15px;
+  }
+
+  #blog .blog-item .blog-img .blog-box h3 {
+    font-size: 20px;
+  }
+
+  #map {
+
+    margin-top: -90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+  }
+
+  #contract .end-logo h2 {
+    padding-bottom: 0;
+  }
+
+  #contract .end-logo p {
+    padding-bottom: 0;
+  }
+
+  #contract .end-logo h4 {
+    padding-bottom: 5px;
+  }
+
+  #contract .footer-blog .heading h2 {
+    padding-bottom: 15px;
+  }
+
+  #contract .instagram .heading h2 {
+    padding-bottom: 0
+  }
+
+  #contract .input-group {
+    margin-top: 5px !important;
+  }
+}
+
+/* m device end  */
+/* large device start */
+@media(min-width:992px) and (max-width:1199.98px) {
+  #work .earle-slider .slick-dots {
+    display: none !important;
+  }
+
+  #service .service-slider .slick-dots {
+    display: none !important;
+  }
+}
+
+/* large device start */
